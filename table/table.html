@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="table.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <input type="search" placeholder="axtar" id="search">
+    <button>Add</button>
+    <table border="1px " width="800px" height="40px" style="margin-top: 30px;">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Age</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+<div class="flex">
+<div class="newmodal">
+    <input type="text" id="newName" placeholder="name">
+    <input type="text" id="newSurname" placeholder="surname">
+    <input type="text" id="newAge" placeholder="age">
+    <button class="createbtn">create</button>
+</div>
+<div class="updatemodal">
+    <input type="text" id="UpdateName" placeholder="updatename">
+    <input type="text" id="UpdateSurname" placeholder="updatesurname">
+    <input type="text" id="UpdateAge" placeholder="updateage">
+    <button class="updatebtn">updatebtn</button>
+</div>
+</div>
+</body>
+<script src="table.js"></script>
+</html>
